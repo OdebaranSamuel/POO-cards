@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.li-card {
+    width: 200px;
+    border: solid 3px white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container-superior {
+    height: 300px;
+    position: relative;
+}
+
+.container-imagem {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.imagem-personagem {
+    background-image: url("/assets/images/C-3PO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container-inferior {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    background-color: black;
+    color: #ffff00;
+}
+
+p {
+    margin-left: 5px;
+    color: #ffff00;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">
+    <title>Página de login</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Faça o seu login</h1>
+    </header>
+    <section class="main">
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>O nome do personagem  deverá ter entre 3 á 10 caracteres</li>
+            <li>A senha deverá ter entre 4 á 10 caracteres</li>
+        </ul>
+        <form class="formulario">
+          
+            <label for="personagem">Nome do seu personagem</label>
+            <input type="text" id="personagem" class="input personagem" >
+            
+            <label for="senha">Senha  </label>
+            <input type="password" id="senha" class="input senha">
+          
+            <label for="senha-repetida">Repita a sua senha </label>
+            <input type="password" id="senha-repetida" class="input senha-rep">
+           
+    
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+
+    </section>
+    <script src="./js/login.js"></script>
+   
+    
+</body>
+</html>
