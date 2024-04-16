@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
 }
@@ -31,9 +31,7 @@ body {
 }
 
 .imagem-personagem {
-    background-image: url("/assets/images/C-3PO.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
     height: 100%;
 }
 
